@@ -1,0 +1,45 @@
+{
+  "name": "react-tableau-report",
+  "version": "1.0.2",
+  "description": "A react component to embed Tableau reports into a web application.",
+  "main": "react-tableau-report.min.js",
+  "files": [
+    "react-tableau-report.min.js",
+    "react-tableau-report.js"
+  ],
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ds2co/react-tableau-report.git"
+  },
+  "keywords": [
+    "react",
+    "tableau",
+    "jsx",
+    "report",
+    "component"
+  ],
+  "author": "Dale Sparks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ds2co/react-tableau-report/issues"
+  },
+  "homepage": "https://github.com/ds2co/react-tableau-report#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "webpack": "^3.5.2"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "tableau-api": "git://github.com/ilyabo/tableau-api.git",
+    "url": "^0.11.0"
+  }
+}
