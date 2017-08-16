@@ -41,7 +41,6 @@ module.exports = {
     },
     externals: {
         "react": "commonjs react",
-        "tableau-api": "commonjs tableau-api",
         "url": "commonjs url"
     }
 }

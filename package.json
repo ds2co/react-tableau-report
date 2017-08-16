@@ -1,6 +1,6 @@
 {
   "name": "react-tableau-report",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react component to embed Tableau reports into a web application.",
   "main": "react-tableau-report.min.js",
   "files": [
