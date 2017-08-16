@@ -1,7 +1,7 @@
 import React, { PropTypes, Component } from 'react';
-import Tableau from 'tableau-api';
 import url from 'url';
 import { shallowequal } from './utils';
+import Tableau from './tableau-api';
 
 const propTypes = {
   filters: PropTypes.object,

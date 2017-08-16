@@ -1,6 +1,6 @@
 {
   "name": "react-tableau-report",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A react component to embed Tableau reports into a web application.",
   "main": "react-tableau-report.min.js",
   "files": [
@@ -39,7 +39,6 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "tableau-api": "git://github.com/ilyabo/tableau-api.git",
     "url": "^0.11.0"
   }
 }
