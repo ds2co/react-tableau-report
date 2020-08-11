@@ -15,7 +15,7 @@ const defaultProps = {
   loading: false,
   parameters: {},
   filters: {},
-  options: {},
+  options: {}
 };
 
 /**
