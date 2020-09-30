@@ -69,8 +69,15 @@ class TableauReport extends Component {
    */
   getUrl() {
     const parsed = url.parse(this.props.url, true);
-
-    let result = parsed.protocol + '//' + parsed.host;
+    
+    let result;
+    
+    if (parsed.hash) {
+          result = parsed.protocol + '//' + parsed.host + '/' + parsed.hash;
+    } else {
+          result = parsed.protocol + '//' + parsed.host;
+    }
+    
     if (this.props.token) result += '/trusted/' + this.props.token;
     result += parsed.pathname + '?:embed=yes&:comments=no&:toolbar=yes&:refresh=yes';
 
